@@ -1,0 +1,183 @@
+.titulo {
+    display: flex;
+    color: white !important;
+    text-align: center !important;
+    margin: auto !important;
+    font-weight: 500;
+    font-size: xx-large;
+}
+.centerNavbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #0373b5 ;
+}
+.navLayout {
+    background-image: url("..\..\assets\headerMiranda.png") !important;
+    background-color: transparent !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    max-height: 29% !important;
+}
+
+
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    background-image: url("..\..\assets\headerMiranda.png");
+    background-color: none;
+    background-repeat: no-repeat;
+    color: #f2f2f2;
+    background-size: 100% 100%;
+    font-size: 1.07vw;
+    white-space: nowrap;
+    max-height: 29%;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    margin-left: 12px;
+    justify-content: space-between;
+    color: white;
+   
+}
+
+.headerTitleContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.headerLogo {
+    height: 40px;
+}
+
+.headerTitle {
+    
+    font-weight: 600;
+}
+
+.headerNavList {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.headerNavPageLink {
+    color: #f2f2f2;
+    text-decoration: none;
+    opacity: 0.75;
+
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+    transition-duration: 500ms;
+    transition-property: opacity;
+}
+
+.headerNavPageLink:hover {
+    opacity: 1;
+}
+
+.headerNavPageLinkActive {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.headerNavLeftMargin {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.headerRightText {
+    font-weight: 450;
+    margin-right: 0;
+    font-size: 1.1vw;
+    white-space: nowrap;
+    text-decoration: none !important;
+    color: white;
+    text-align: right !important;
+}
+
+@media (min-width: 1050px) and (max-width: 1350px) {
+    .headerRightText {
+        font-size: 1.34vw;
+    }
+    
+}
+
+@media (max-width: 1050px) {
+    .headerRightText {
+        font-size: 1.54vw;
+    }
+}
+
+@media (max-width: 950px)
+{
+    .divleft {
+        display: none !important;
+    }
+
+    .divcenter {
+        display: flex;
+        width: 80%;
+        padding: 25px 0;
+        margin: auto !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .divright {
+        display: none !important;
+    }
+
+    .titulo{
+        font-size: x-large;
+    }
+}
+
+.microsoftLogo {
+    height: 23px;
+    font-weight: 600;
+}
+
+.mirandaLogo {
+    margin-left: 12%;
+    width:17%;
+    height: 17%;
+}
+
+
+.divleft {
+    display: flex;
+    width: 25%;
+    margin-left: 1%;
+}
+
+.divcenter {
+    display: flex;
+    width: 50%;
+    margin: auto !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.divright {
+    display: flex;
+    width: 25%;
+    text-decoration: none !important;
+    margin: auto !important;
+    text-align: right !important;
+}
+
+.divPai{
+    display: flex;
+
+}

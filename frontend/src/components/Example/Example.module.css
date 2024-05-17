@@ -1,0 +1,51 @@
+.examplesNavList {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  .example {
+    word-break: break-word;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  .eacheli {
+    border: 1px;
+    background: white;
+    border-style: solid;
+    border: 1;
+    border-color: #1d9dff;
+  }
+  
+  .eacheli:hover {
+    outline: 2px solid rgba(115, 118, 225, 1);
+  }
+    
+  .exampleText {
+    margin: 0;
+    font-size: 22px;
+    margin: 0;
+    font-size: 1em;
+    word-break: break-word;
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  @media (max-wdith: 800px) {
+    .exampleText {
+      margin: 0;
+      font-size: 17px;
+      width: 255px;
+      height: 80px;
+    }
+  }
+  
