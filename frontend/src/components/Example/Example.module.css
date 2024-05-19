@@ -49,3 +49,41 @@
     }
   }
   
+
+
+  .languageButtons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .languageButtons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .languageButtons button:focus {
+    outline: none;
+  }
+  
+  .languageButtons button svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .languageButtons button:nth-child(1) svg {
+    fill: #1D9DFF; /* Cor para a bandeira do inglês */
+  }
+  
+  .languageButtons button:nth-child(2) svg {
+    fill: #FFD700; /* Cor para a bandeira do francês */
+  }
+  
+  .languageButtons button:nth-child(3) svg {
+    fill: #FF6347; /* Cor para a bandeira do espanhol */
+  }
+  
